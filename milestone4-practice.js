@@ -549,3 +549,40 @@ console.log("Sum of odd:", findOddSum(numberArray)); */
 
 leapYear(2024); */
 
+
+/* 39) ত োমার বয়স কি odd নাকি even সংখ্যা সে টা চে ক কর একটা ফাংশন দি য়ে । সে ই ফাংশনকে ক োন সংখ্যা প্যারামি টার হি সে বে দি লে , সে ই সংখ্যা Even হলে ফাংশন true রি টার্ন করবে আর Odd হলে false রি টার্ন করবে । */
+
+/* function checkAge(age){
+  if(age % 2 === 0){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+
+console.log(checkAge(22)); */
+
+
+/* 40) এমন একটা ফ্যাংশনা লি খ ো যে টাকে তুমি ঘন্টাকে ইনপুট প্যারামি টার হি সে বে দি বে । আর সে সে ই ঘন্টাকে সেকেন্ডে কনভার্ট করে সেকেন্ড রি টার্ন করবে । */
+
+/* function toSecond(hour){
+  let second = hour * 60 * 60;
+  return second;
+}
+
+console.log(toSecond(24), "seconds"); */
+
+
+// 41) একটা লপু লি খতে হবে যে টা ১ থে কে ১০০ পর্যন্ত যত সংখ্যা আছে সে টা দে খাবে ।
+
+/* for(let i = 1; i <= 100; i++){
+  console.log(i);
+} */
+
+
+// 42) ৫০ থে কে ৮০ এর মধ্যে যত ো বি জ োড় সংখ্যা আছে সে গুলাকে দে খাবে ।
+
+/* for(let i = 51; i <= 80; i += 2){
+  console.log(i)
+} */
